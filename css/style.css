@@ -198,3 +198,31 @@
 	width: 100%;
 	margin-bottom: 23px;
 }
+
+/*section4*/
+.bg-image4 {
+	background-image: url(../img/bg4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.app-icn {
+	height: 50px;
+}
+.app-div {
+	margin-bottom: 30px;
+}
+.app-icons-div {
+	max-width: 310px;
+	display: flex;
+	justify-content: space-between;
+}
+.app-wraper {
+	margin-left: 400px;
+	margin-top: 170px;
+}

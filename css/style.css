@@ -1,0 +1,162 @@
+.bg-image {
+	background-image: url(../img/bg-image.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 657px;
+	background-position: right;
+}
+.navigation {
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.logo {
+	width: 190px;
+}
+.nav-ul {
+	text-decoration: none;
+	display: flex;
+	max-width: 500px;
+	width: 100%;
+	justify-content: space-between;
+}
+.a-li {
+	font-family: 'FiraGO';
+	color: #82809C;
+	transition: 0.3s linear;
+}
+.a-li:hover {
+	color: #CD79EE;
+}
+.home {
+	color: #CD79EE;
+}
+.icon-text {
+	font-family: 'FiraGO';
+	color: #CD79EE;
+}
+.user-div {
+	display: flex;
+	align-items: center;
+}
+.register {
+	color: #67A9C8;
+	border: solid 2px;
+	padding: 5px;
+	border-radius: 8px;
+}
+.icons {
+	display: flex;
+	max-width: 230px;
+	width: 100%;
+	justify-content: space-between;
+}
+.user-div {
+	display: flex;
+	align-items: center;
+	max-width: 85px;
+	width: 100%;
+	justify-content: space-between;
+}
+.top-h2 {
+	max-width: 450px;
+	width: 100%;
+	font-size: 50px;
+	color: #5712A6;
+	font-family: 'FiraGO';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.top-text {
+	font-family: 'FiraGO';
+	color: #82809C;
+	font-size: 21px;
+	max-width: 530px;
+	width: 100%;
+	margin-top: 30px;
+}
+.button {
+	max-width: 180px;
+	width: 100%;
+	height: 55px;
+	background-color: #5812A8;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-family: 'FiraGO';
+	font-size: 25px;
+	margin-top: 30px;
+	transition: 0.2s linear;
+}
+.button:focus {
+	outline: none;
+}
+.button:hover {
+	background-color: #CD79EE;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.content {
+	margin-top: 80px;
+}
+
+/*section*/
+
+.bg-image2 {
+	background-image: url(../img/bg2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 650px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	max-width: 1150px;
+}
+.platform-h3 {
+	font-size: 25px;
+	font-family: 'FiraGO';
+	color: #82809C;
+	max-width: 530px;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.ser-div {
+	display: flex;
+	align-items: flex-start;
+	max-width: 410px;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 23px;
+}
+.ser-h3 {
+	font-family: 'FiraGO';
+	font-size: 20px;
+	color: #5712A6;
+	font-weight: bold;
+}
+.ser-p {
+	font-family: 'FiraGO';
+	font-size: 16px;
+	color: #82809C;
+	max-width: 350px;
+	width: 100%;
+	margin-top: 7px;
+}
+.contact-icon {
+	max-width: 45px;
+}
+.more {
+	font-family: 'FiraGO';
+	font-size: 16px;
+	color: #5712A6;
+	font-weight: bolder;
+	margin-left: 60px;
+	margin-top: 23px;
+}
